@@ -1,1 +1,30 @@
+why python?
+----------------
+1) It is a opensource.
+2) has huge cummuntiy support.
+3) cross platform programming lanugauge (run in any machine).
+4) huge set of libraries and tools.
 
+Python :
+-----------
+Python is an interpreted general-purpose/ multi-purpose high-level programming with easy syantax and dynamic semantics.
+
+dynamic semantics -> variables are dynamic objects.
+
+eg:-
+       c-program                               python code
+      ----------                             ----------------
+int x=10;                                          x=10;
+int y=5;                                            y=5; 
+printf("%d",x+y);                                    print(x+y)
+
+here x and y are integers throughout              here x and y has no type,so we can assign any typeof value to these variables,later in code
+the program,beacuse we are specifiying                 ( it is called dynamically typed).
+it statically.
+
+
+Traslator :
+---------------
+It converts a high-level language code to the binary language code.
+2 types-> a)complier.
+           b) Interpreter.
