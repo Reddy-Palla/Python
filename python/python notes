@@ -26,5 +26,68 @@ it statically.
 Traslator :
 ---------------
 It converts a high-level language code to the binary language code.
-2 types-> a)complier.
+2 types-> a)compiler.
            b) Interpreter.
+
+
+a)compiler:-
+            It is a complex piece of software whose job is to convert source code to machine code in ONE GO.
+-> It creates executable file.
+eg: c,c++,etc...
+
+b)Interpreter:-
+               It is a software program written to translate source code in to machine code LINE BY LINE.
+->It will not create execuatbale file.
+eg: javascript,PHP,etc...
+
+* Compiled languages
+-------------------------
+Advantages:-  1)private data(no need to give source code)
+              2)faster execution.
+              3)Fully optimized.
+
+Disadvantages:- 1)NO portability(runs in same executable code type of machine)
+                2)Extra complisation steps.
+
+*Interpreted languages
+--------------------------
+Advantages:- 1)portable
+             2)Easy debugging.
+
+Disadvantages:- 1)requires interpreter
+                2)slower
+                3)public code.
+
+*Hybrid languages
+-------------------
+ +------------------+          +------------------+          +-----------------+
+|   Source Code    |   --->   |     Compiler     |   --->   |    Bytecode     |              code privacy from compilation and portability from interprter.
++------------------+          +------------------+          +-----------------+                 eg: java,c#,etc...
+                                                                 |
+                                                                 |
+                                  +-----------------------------+-----------------------------+
+                                  |                                          |             |
+                          +-----------------+                                |          +-----------------+
+                          |  Interpreter    |                                |          |  Interpreter    |
+                          |    Windows      |                                |          |    Linux        |
+                          +-----------------+                                |          +-----------------+
+                                                                             |
+                                                                             |
+                                                                          +-----------------+
+                                                                          |  Interpreter    |
+                                                                          |      Mac        |
+                                                                          +-----------------+
+
+* Byte code -> for genrating this we have to give this commands in command prompt
+                                1)import py_complie then enter.
+                                2)py_compile.compile("name of the file").
+
+Indentation:-
+----------------
+It is the leading whitespace(a tab (or) whitespace entered through your keyboard) before any statement in python.
+uses:- 1)It improves readbaility.
+       2)It helps in indicating a block of code.
+
+eg:  without indetation                                   with indentation
+    ---------------------                                -------------------
+    name =
