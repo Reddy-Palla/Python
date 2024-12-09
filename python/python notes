@@ -88,6 +88,58 @@ It is the leading whitespace(a tab (or) whitespace entered through your keyboard
 uses:- 1)It improves readbaility.
        2)It helps in indicating a block of code.
 
-eg:  without indetation                                   with indentation
-    ---------------------                                -------------------
-    name =
+eg:  without indetation            with indentation
+    ---------------------          -------------------
+    name ='sam'                     name='sam'
+    if name=='sam':                 if name=='sam':
+    print('hello sam')                print("hello")
+    else:                           else:
+   print('bye sam')                   print("bye")
+
+Rules :-
+1) min one space is neccasary to represent an indent statment.
+2) 1st line of python code cannot have indentation.
+3) indentation is mandatory to define a block  of code.
+4) the number of space must be uniform.(some comlpiers have auto indentation).
+
+Advanatges:-
+----------
+1) Better readbility and identification of the block of code.
+2) reduced lines of code.
+
+Disadvantages:-
+---------
+1)diffucult in large codes.without good code editiors(with  auto indentation ).
+
+
+* REPL:-
+------------ 
+REPL is a python intercative shell.
+ after this c:\users\abc>python
+this will come   " >>> "  ->This indicates python interactive shell is active
+    READ -> python reads the statments.
+    EVALUTE -> python evalutes it and understands whst you have written & process it.
+    PRINT  -> It prints the result on screen.
+    LOOP -> it again starts the same process from READ.
+eg:-
+   using REPL as a calculator:-
+       In command prompt-> c:\users:\abc\python (enter)
+                            >>>   10+5   (READ+EVALUTE)
+                            >>>  15      (PRINT)
+                            >>>         (this is loop again it raed what you will give)
+
+Airthmetaic operators:-
+--------------------------
+1) ** -> exponent
+2) %  -> modouls/reaminder
+3) // -> integer division(integer value) eg: 2//2=1
+4) /  ->divison (floating value) 2/2=1.0
+5) *  -> multiplication
+6) -  -> substraction
+7) +   -> addition
+
+precedence of operators:-
+---------------------------
+1) **
+2) %,//,/,*  (left to right)
+3)-,+.
